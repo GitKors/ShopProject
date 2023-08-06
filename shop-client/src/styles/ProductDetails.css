@@ -1,0 +1,94 @@
+.product-details-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .product-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .product-thumbnail {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .product-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .product-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .product-description {
+    margin-bottom: 20px;
+  }
+  
+  .product-price {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .similar-products {
+    margin-bottom: 20px;
+  }
+  
+  .similar-products h2 {
+    font-size: 24px;
+  }
+  
+  .similar-product-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .similar-product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .similar-product h3 {
+    margin: 0;
+  }
+  
+  .comment-form {
+    margin-top: 20px;
+  }
+  
+  .comment-form h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .comment-form input,
+  .comment-form textarea {
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .comment-form button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

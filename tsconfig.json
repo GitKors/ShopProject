@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "types": ["node", "react", "react-dom", "react-router-dom"],
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "paths": {
+      "@Shared/*": [
+        "Shared/*"
+      ]
+    },
+    "jsx": "react"
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "shop-client/src",
+    "src" // Добавлен путь к корневой папке проекта
+  ]
+}
